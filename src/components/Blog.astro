@@ -1,5 +1,6 @@
 ---
 import background from '../assets/background.svg';
+const pageTitle = "Blog";
 ---
 
 <div id="container">
@@ -7,13 +8,18 @@ import background from '../assets/background.svg';
 	<main>
 		<section id="hero">
 			<h1>
-				Blog
+				{pageTitle}
 			</h1>
 			<section id="about">
                 <a href="/">Home</a>
                 <a href="/about/">About</a>
                 <a href="/blog/">Blog</a>
-				<p>Tu będzie blog</p>
+				<h2>Najnowsze wpisy</h2>
+                <ul>
+                    <li><a href="/posts/post-1/">Post 1</a></li>
+                    <li><a href="/posts/post-2/">Post 2</a></li>
+                    <li><a href="/posts/post-3/">Post 3</a></li>
+                </ul>
             </section>
 		</section>
 	</main>
